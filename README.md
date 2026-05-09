@@ -1,6 +1,6 @@
-# TechFlow 企业落地页
+# Vue3 企业落地页
 
-> 企业数字化服务官网 · Vue3 + Express + SQL Server 全栈落地页模板
+> Vue3 + Express + SQL Server 全栈落地页模板
 
 [![Vue.js](https://img.shields.io/badge/Vue3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -14,11 +14,10 @@
 
 ## 项目简介
 
-**TechFlow** 是一套面向企业数字化服务公司的官网落地页，包含：
+一套 Vue3 全栈落地页模板，包含：
 
 - 首页：Hero 首屏 / About 我们 / Services 服务 / Cases 案例 / Testimonials 客户评价 / ContactForm 联系表单
 - 联系页：独立的联系页面（`/contact`），全功能表单，支持公司名称选填
-- 品牌：TechFlow，400-888-8888，hello@techflow.com
 
 支持联系表单提交 → 后端 API → SQL Server 持久化。数据格式：姓名 + 电话 + 公司（选填）+ 留言。
 
