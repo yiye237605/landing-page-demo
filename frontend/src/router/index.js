@@ -4,7 +4,9 @@ import Contact from '../views/Contact.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
-  { path: '/contact', name: 'Contact', component: Contact }
+  { path: '/contact', name: 'Contact', component: Contact },
+  // 兜底：未知路径重定向到首页
+  { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
 const router = createRouter({
