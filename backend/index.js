@@ -1,6 +1,7 @@
 import sql from 'mssql'
 import express from 'express'
 import cors from 'cors'
+import { getConnection } from './db.js'
 
 const app = express()
 const PORT = process.env.PORT || 3002
@@ -76,27 +77,6 @@ app.get('/api/contacts', async (req, res) => {
     })
   }
 })
-
-// SQL Server 连接配置
-const config = {
-  server: 'localhost',
-  database: 'landing_page_db',
-  user: 'sa',
-  password: '123456',  // 使用实际密码
-  options: {
-    encrypt: false,
-    trustServerCertificate: true
-  }
-}
-
-let pool = null
-
-async function getConnection() {
-  if (!pool) {
-    pool = await sql.connect(config)
-  }
-  return pool
-}
 
 app.listen(PORT, () => {
   console.log(`✅ Backend server running on http://localhost:${PORT}`)

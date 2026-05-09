@@ -1,10 +1,10 @@
 import sql from 'mssql'
 
 const config = {
-  server: 'DESKTOP-4B7PHPQ',
-  database: 'landing_page_db',
-  user: 'sa',
-  password: '123456',
+  server: process.env.DB_SERVER || 'localhost',
+  database: process.env.DB_NAME || 'landing_page_db',
+  user: process.env.DB_USER || 'sa',
+  password: process.env.DB_PASSWORD || '',
   options: {
     encrypt: false,
     trustServerCertificate: true
