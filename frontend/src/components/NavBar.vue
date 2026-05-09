@@ -7,7 +7,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
         </div>
-        <span class="text-xl font-semibold text-ink tracking-tight">TechFlow</span>
+        <span class="text-xl font-semibold text-ink tracking-tight">LandingPage</span>
       </router-link>
       
       <div class="hidden lg:flex items-center gap-12">

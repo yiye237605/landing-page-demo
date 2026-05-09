@@ -9,7 +9,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <span class="text-xl font-semibold">TechFlow</span>
+            <span class="text-xl font-semibold">LandingPage</span>
           </div>
           <p class="text-base text-white/40 leading-relaxed mb-8">
             专注企业数字化服务<br/>用技术推动商业增长
@@ -51,15 +51,15 @@
         <div>
           <h4 class="font-semibold text-lg mb-6">联系我们</h4>
           <ul class="space-y-4 text-base text-white/40">
-            <li>400-888-8888</li>
-            <li>hello@techflow.com</li>
+            <li>400-000-0000</li>
+            <li>contact@example.com</li>
             <li>北京市朝阳区科技园区88号</li>
           </ul>
         </div>
       </div>
       
       <div class="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-base text-white/30">© 2024 TechFlow. 保留所有权利.</p>
+        <p class="text-base text-white/30">© 2024 LandingPage. 保留所有权利.</p>
         <div class="flex gap-8 text-base text-white/30">
           <a href="#" class="hover:text-white/60 transition-colors">隐私政策</a>
           <a href="#" class="hover:text-white/60 transition-colors">服务条款</a>
